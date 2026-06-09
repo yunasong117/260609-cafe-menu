@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MenuSnap — 카페 메뉴를 사진으로</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">Menu<span>Snap</span></a>
+      <a href="#cta" class="btn btn-nav">무료로 시작하기</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content fade-in">
+      <span class="badge">카페 메뉴의 새로운 방식</span>
+      <h1>음료 사진과 가격,<br />한눈에 확인하세요</h1>
+      <p class="hero-sub">카페마다 다른 메뉴판, 이제 사진과 가격을 깔끔하게 정리해<br />손님이 주문 전에 충분히 둘러볼 수 있게 합니다.</p>
+      <div class="hero-actions">
+        <a href="#cta" class="btn btn-primary">지금 시작하기</a>
+        <a href="#menu-preview" class="btn btn-ghost">미리보기</a>
+      </div>
+    </div>
+    <div class="hero-mockup fade-in delay-1">
+      <div class="mockup-grid">
+        <div class="mockup-card">
+          <img src="https://picsum.photos/seed/coffee1/200/160" alt="아메리카노" />
+          <div class="mockup-info">
+            <span>아메리카노</span>
+            <strong>₩3,500</strong>
+          </div>
+        </div>
+        <div class="mockup-card highlight">
+          <img src="https://picsum.photos/seed/latte2/200/160" alt="카페라떼" />
+          <div class="mockup-info">
+            <span>카페라떼</span>
+            <strong>₩4,500</strong>
+          </div>
+        </div>
+        <div class="mockup-card">
+          <img src="https://picsum.photos/seed/matcha3/200/160" alt="말차라떼" />
+          <div class="mockup-info">
+            <span>말차라떼</span>
+            <strong>₩5,500</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Preview -->
+  <section class="section menu-preview" id="menu-preview">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <h2>실제 메뉴처럼 보이는 카드</h2>
+        <p>각 음료마다 선명한 사진, 이름, 가격을 카드 형태로 보여줍니다.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card fade-in">
+          <div class="card-img-wrap">
+            <img src="https://picsum.photos/seed/americano10/400/300" alt="아메리카노" />
+          </div>
+          <div class="card-body">
+            <p class="card-category">에스프레소</p>
+            <h3 class="card-name">아메리카노</h3>
+            <p class="card-price">₩3,500</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in delay-1">
+          <div class="card-img-wrap">
+            <img src="https://picsum.photos/seed/cafelatte20/400/300" alt="카페라떼" />
+          </div>
+          <div class="card-body">
+            <p class="card-category">밀크커피</p>
+            <h3 class="card-name">카페라떼</h3>
+            <p class="card-price">₩4,500</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in delay-2">
+          <div class="card-img-wrap">
+            <img src="https://picsum.photos/seed/cappuccino30/400/300" alt="카푸치노" />
+          </div>
+          <div class="card-body">
+            <p class="card-category">밀크커피</p>
+            <h3 class="card-name">카푸치노</h3>
+            <p class="card-price">₩4,500</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in">
+          <div class="card-img-wrap">
+            <img src="https://picsum.photos/seed/vanilla40/400/300" alt="바닐라라떼" />
+          </div>
+          <div class="card-body">
+            <p class="card-category">시그니처</p>
+            <h3 class="card-name">바닐라라떼</h3>
+            <p class="card-price">₩5,000</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in delay-1">
+          <div class="card-img-wrap">
+            <img src="https://picsum.photos/seed/coldbrew50/400/300" alt="콜드브루" />
+          </div>
+          <div class="card-body">
+            <p class="card-category">콜드브루</p>
+            <h3 class="card-name">콜드브루</h3>
+            <p class="card-price">₩5,500</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in delay-2">
+          <div class="card-img-wrap">
+            <img src="https://picsum.photos/seed/matcha60/400/300" alt="말차라떼" />
+          </div>
+          <div class="card-body">
+            <p class="card-category">논커피</p>
+            <h3 class="card-name">말차라떼</h3>
+            <p class="card-price">₩5,500</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section features">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <h2>왜 MenuSnap인가요?</h2>
+        <p>카페 운영자와 손님 모두를 위한 스마트한 메뉴 솔루션</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">📸</div>
+          <h3>사진으로 먼저 확인</h3>
+          <p>텍스트만 가득한 메뉴판 대신, 실제 음료 사진을 보고 주문하세요. 기대와 다른 음료가 나올 일이 없습니다.</p>
+        </div>
+        <div class="feature-card fade-in delay-1">
+          <div class="feature-icon">💰</div>
+          <h3>투명한 가격 표시</h3>
+          <p>음료마다 가격이 명확하게 표시되어 있어 계산이 편리합니다. 주문 전 미리 파악하세요.</p>
+        </div>
+        <div class="feature-card fade-in delay-2">
+          <div class="feature-icon">🔍</div>
+          <h3>빠른 메뉴 탐색</h3>
+          <p>카테고리별 필터와 깔끔한 카드 레이아웃으로 원하는 음료를 빠르게 찾을 수 있습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section" id="cta">
+    <div class="section-inner">
+      <div class="cta-box fade-in">
+        <h2>내 카페 메뉴를 지금 바로 올려보세요</h2>
+        <p>무료로 시작하고, 손님 경험을 바꿔보세요.</p>
+        <form class="cta-form" id="ctaForm">
+          <input type="email" id="emailInput" placeholder="이메일 주소를 입력하세요" required />
+          <button type="submit" class="btn btn-primary">무료 시작</button>
+        </form>
+        <p class="cta-note" id="ctaSuccess" style="display:none;">감사합니다! 곧 연락드리겠습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="logo">Menu<span>Snap</span></span>
+      <p>© 2026 MenuSnap. 카페 메뉴의 새로운 경험.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

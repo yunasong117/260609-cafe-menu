@@ -1,0 +1,12 @@
+{
+  "name": "cafe-landing",
+  "version": "1.0.0",
+  "description": "MenuSnap - 카페 음료 사진+가격 랜딩페이지",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
